@@ -1,1 +1,66 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Eldritch Horror Helper</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="app-wrapper">
+            <div class="ancients">
+                <div class="cards-wrapper">
+                    <div id="azathoth" class="card"></div>
+                    <div id="cthulhu" class="card"></div>
+                    <div id="iogSothoth" class="card"></div>
+                    <div id="shubNiggurath" class="card"></div>
+                </div>
+            </div>
 
+            <div class="levels-wrapper hidden">
+                <div id="superEasy" class="button">Очень легкий</div>
+                <div id="easy" class="button">Легкий</div>
+                <div id="normal" class="button ">Нормальный</div>
+                <div id="hard" class="button">Тяжелый</div>
+                <div id="superHard" class="button">Очень тяжелый</div>
+            </div>
+            <div class="board-wrapper hidden">
+                <div class="game-stage-wrapper">
+                    <div class="stage firstStage">
+                        <div class="stage-title">Первая фаза</div>
+                        <div class="stage-cards">
+                            <div class="card-tracker green">1</div>
+                            <div class="card-tracker brown">2</div>
+                            <div class="card-tracker blue">3</div>
+                        </div>
+                    </div>
+                    <div class="stage secondStage">
+                        <div class="stage-title">Вторая фаза</div>
+                        <div class="stage-cards">
+                            <div class="card-tracker green">1</div>
+                            <div class="card-tracker brown">2</div>
+                            <div class="card-tracker blue">3</div>
+                        </div>
+                    </div>
+                    <div class="stage thirdStage">
+                        <div class="stage-title">Третья фаза</div>
+                        <div class="stage-cards">
+                            <div class="card-tracker green">1</div>
+                            <div class="card-tracker brown">2</div>
+                            <div class="card-tracker blue">3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="deck-wrapper">
+                    <div class="simple-card card-back"></div>
+                    <div class="simple-card card-front"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>
